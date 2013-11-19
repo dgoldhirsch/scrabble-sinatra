@@ -1,0 +1,24 @@
+%html
+  %head
+    %title Scrabble Challange
+  %body
+    %h1 Scrabble Challange Sinatra Application
+    %p David can write a Sinatra app, even though he hasn't created one since 2009
+
+    %form{action: '/challenges', method: 'post'}
+      %label{for: 'letters'}
+        Letters:
+      %input{id: 'letters', name: 'letters', type: 'text'}
+      %input{type: 'submit', value: 'solve'}
+-#<form action="/posts" method="post">
+-#  <label for="post_title">Title:</label><br />
+-#  <input id="post_title" name="post[title]" type="text" value="<%= @post.title %>" />
+-#  <br />
+-#
+-#  <label for="post_body">Body:</label><br />
+-#  <textarea id="post_body" name="post[body]" rows="5"><%= @post.body %></textarea>
+-#  <br />
+-#
+-#  <input type="submit" value="Create Post" />
+-#</form>
+
