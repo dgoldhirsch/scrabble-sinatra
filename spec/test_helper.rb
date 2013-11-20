@@ -3,4 +3,4 @@ require 'minitest/pride' # Colored output from runner
 require 'minitest/autorun'
 require 'debugger'
 
-require './lib/dictionary'
+require './lib/words'

@@ -14,9 +14,13 @@
     <file path="/scrabble_challenge.rake" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384903861157" ignored="false" />
     <file path="/Rakefile" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384904608589" ignored="false" />
     <file path="/dummy_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384904466810" ignored="false" />
-    <file path="/test_helper.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384986894505" ignored="false" />
+    <file path="/test_helper.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384989415582" ignored="false" />
     <file path="/dictionary_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384987763385" ignored="false" />
-    <file path="/dictionary.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384987572245" ignored="false" />
+    <file path="/dictionary.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384988047475" ignored="false" />
+    <file path="/dictionary_file.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384988999108" ignored="false" />
+    <file path="/dictionary_file_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384989626738" ignored="false" />
+    <file path="/sample_dictionary_file.txt" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384988924911" ignored="false" />
+    <file path="/words.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384989401556" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,16 @@
       <file leaf-file-name="test_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/test_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+            <state line="5" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="words.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/words.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,10 +76,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dictionary_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dictionary_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/dictionary_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="46" selection-start="704" selection-end="704" vertical-scroll-proportion="0.5970149">
+            <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dictionary_file_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/dictionary_file_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="55" selection-start="682" selection-end="682" vertical-scroll-proportion="0.53731346">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_dictionary_file.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/sample_dictionary_file.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +106,16 @@
       <file leaf-file-name="dictionary.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dictionary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dictionary_file.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dictionary_file.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,9 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config.ru" />
-        <option value="$PROJECT_DIR$/views/challenges/create.haml" />
-        <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/views/index.haml" />
         <option value="$PROJECT_DIR$/views/post_challenge.haml" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -166,9 +203,13 @@
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/dictionary.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/test_helper.rb" />
-        <option value="$PROJECT_DIR$/lib/dictionary.rb" />
         <option value="$PROJECT_DIR$/spec/dictionary_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/dictionary.rb" />
+        <option value="$PROJECT_DIR$/spec/sample_dictionary_file.txt" />
+        <option value="$PROJECT_DIR$/lib/dictionary_file.rb" />
+        <option value="$PROJECT_DIR$/lib/words.rb" />
+        <option value="$PROJECT_DIR$/spec/test_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/dictionary_file_spec.rb" />
       </list>
     </option>
   </component>
@@ -531,34 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="42" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
@@ -608,23 +621,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/dictionary.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/dictionary_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="704" selection-end="704" vertical-scroll-proportion="0.5970149">
+        <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/sample_dictionary_file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dictionary_file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/words.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dictionary_file_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="682" selection-end="682" vertical-scroll-proportion="0.53731346">
           <folding />
         </state>
       </provider>

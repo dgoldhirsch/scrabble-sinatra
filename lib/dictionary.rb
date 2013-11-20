@@ -5,14 +5,9 @@ class Dictionary
     "#{words}"
   end
 
-  # Convenience
-  def anagrams_of(string)
-    words_spelled_with(letters_in(string.strip.downcase))
-  end
-
-  def words_spelled_with(letters)
+  def words_spelled_with(array_of_letters)
     words.select do |word|
-      letters_in(word).to_set.subset?(letters.to_set)
+      letters_in(word).to_set.subset?(array_of_letters.to_set)
     end
   end
 
