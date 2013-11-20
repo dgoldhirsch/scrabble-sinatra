@@ -26,6 +26,6 @@ private
   end
 
   def normalize(string)
-    string.strip.downcase
+    string.gsub(/\s+/, "").downcase
   end
 end
