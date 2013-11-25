@@ -8,7 +8,7 @@ class Scorer
 private
 
   def default_scores
-    Hash.new[
+    Hash[
       'a', 1,
       'b', 3,
       'c', 3,
@@ -39,13 +39,8 @@ private
   end
 
   # Allow overriding of scoring hash, for easier testing
-  def initialize(overriding_scores = {})
-    self.scores =
-      if overriding_scores.any?
-        overriding_scores
-      else
-        default_scores
-      end
+  def initialize(overriding_scores = nil)
+    self.scores = overriding_scores || default_scores
   end
 
   def score_lowercase_letter(letter)

@@ -5,9 +5,9 @@ class Dictionary
     "#{words}"
   end
 
-  def words_spelled_with(array_of_letters)
+  def words_containing_anagram(anagram)
     words.select do |word|
-      letters_in(word).to_set.subset?(array_of_letters.to_set)
+      Strings::string_contains_anagram?(word, anagram)
     end
   end
 

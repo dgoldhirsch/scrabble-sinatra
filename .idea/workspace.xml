@@ -4,7 +4,7 @@
     <list default="true" id="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" name="Default" comment="" />
     <ignored path="scrabble-sinatra.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384986839379" ignored="false" />
+    <file path="/Gemfile" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385252284459" ignored="false" />
     <file path="/README.md" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384903239878" ignored="false" />
     <file path="/index.haml" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384902568053" ignored="false" />
     <file path="/config.ru" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384899920316" ignored="false" />
@@ -14,15 +14,21 @@
     <file path="/scrabble_challenge.rake" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384903861157" ignored="false" />
     <file path="/Rakefile" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384904608589" ignored="false" />
     <file path="/dummy_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384904466810" ignored="false" />
-    <file path="/test_helper.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384989415582" ignored="false" />
-    <file path="/dictionary_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384987763385" ignored="false" />
-    <file path="/dictionary.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384988047475" ignored="false" />
+    <file path="/test_helper.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385252379473" ignored="false" />
+    <file path="/dictionary_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385329836730" ignored="false" />
+    <file path="/dictionary.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385329302905" ignored="false" />
     <file path="/dictionary_file.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384988999108" ignored="false" />
     <file path="/dictionary_file_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384989626738" ignored="false" />
     <file path="/sample_dictionary_file.txt" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384988924911" ignored="false" />
-    <file path="/words.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384990847543" ignored="false" />
-    <file path="/scorer.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384991831114" ignored="false" />
+    <file path="/words.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385317599718" ignored="false" />
+    <file path="/scorer.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385316747392" ignored="false" />
     <file path="/scorer_spec.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1384991767210" ignored="false" />
+    <file path="/a.dummy" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385252356361" ignored="false" />
+    <file path="/game.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385316860951" ignored="false" />
+    <file path="/extensions.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385314229582" ignored="false" />
+    <file path="/strings.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385329216331" ignored="false" />
+    <file path="/temp.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385316293078" ignored="false" />
+    <file path="/letter_tally.rb" changelist="359dc1fb-3ef7-4b88-a9c9-04919c5efb14" time="1385320739471" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,100 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="dictionary.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dictionary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/test_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="words.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/words.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+            <state line="7" column="30" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="words.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/data/words.txt">
+        <entry file="file://$PROJECT_DIR$/words.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15869" column="0" selection-start="107412" selection-end="107412" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scorer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/scorer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="68" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scorer_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/scorer_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="0.7741935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionary_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/dictionary_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionary_file_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/dictionary_file_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample_dictionary_file.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/sample_dictionary_file.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionary.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/dictionary.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="15" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,64 +75,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dummy_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/dummy_spec.rb">
+      <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dsl_definition.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/rake/dsl_definition.rb">
+      <file leaf-file-name="strings.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/strings.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="63" selection-start="2283" selection-end="2400" vertical-scroll-proportion="0.0">
+            <state line="7" column="28" selection-start="225" selection-end="225" vertical-scroll-proportion="0.23728813">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ru">
+      <file leaf-file-name="scorer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/scorer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="10" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.rb">
+      <file leaf-file-name="words.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/words.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="10" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_challenge.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/post_challenge.haml">
+      <file leaf-file-name="letter_tally.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/letter_tally.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.haml">
+      <file leaf-file-name="dictionary_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/dictionary_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="20" column="61" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="populate_from_hash.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/populate_from_hash.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+            <state line="8" column="53" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,30 +148,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/subdirectory/dummy_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/dummy_spec.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/dictionary.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/dictionary_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/sample_dictionary_file.txt" />
         <option value="$PROJECT_DIR$/lib/dictionary_file.rb" />
-        <option value="$PROJECT_DIR$/spec/test_helper.rb" />
         <option value="$PROJECT_DIR$/spec/dictionary_file_spec.rb" />
         <option value="$PROJECT_DIR$/public/data/words.txt" />
         <option value="$PROJECT_DIR$/public/data/scores.txt" />
-        <option value="$PROJECT_DIR$/lib/words.rb" />
-        <option value="$PROJECT_DIR$/lib/dictionary.rb" />
-        <option value="$PROJECT_DIR$/lib/scorer.rb" />
         <option value="$PROJECT_DIR$/spec/scorer_spec.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/test_helper.rb" />
+        <option value="$PROJECT_DIR$/lib/extensions.rb" />
+        <option value="$PROJECT_DIR$/lib/populate_from_hash.rb" />
+        <option value="$PROJECT_DIR$/lib/scorer.rb" />
+        <option value="$PROJECT_DIR$/lib/game.rb" />
+        <option value="$PROJECT_DIR$/lib/letter_tally.rb" />
+        <option value="$PROJECT_DIR$/lib/words.rb" />
+        <option value="$PROJECT_DIR$/lib/strings.rb" />
+        <option value="$PROJECT_DIR$/lib/dictionary.rb" />
+        <option value="$PROJECT_DIR$/spec/dictionary_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
+    <option name="x" value="75" />
     <option name="y" value="22" />
-    <option name="width" value="2311" />
-    <option name="height" value="967" />
+    <option name="width" value="1198" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -303,39 +228,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrabble-sinatra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="words" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrabble-sinatra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrabble-sinatra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="words" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,12 +265,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/spec" />
       <recent name="$PROJECT_DIR$/spec/subdirectory" />
@@ -433,6 +345,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -522,14 +454,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="2311" height="967" extended-state="0" />
+    <frame x="75" y="22" width="1198" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28470066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2578125" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -538,7 +470,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -605,72 +537,39 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/post_challenge.haml">
+    <entry file="file://$PROJECT_DIR$/spec/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/rake/dsl_definition.rb">
+    <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="63" selection-start="2283" selection-end="2400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="10" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/dummy_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="18" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/views/post_challenge.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dictionary_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/sample_dictionary_file.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/test_helper.rb">
+    <entry file="file://$PROJECT_DIR$/words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/dictionary_file_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -682,37 +581,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/words.txt">
+    <entry file="file://$PROJECT_DIR$/lib/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15869" column="0" selection-start="107412" selection-end="107412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/words.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dictionary.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/scorer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="68" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="10" column="8" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/scorer_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/letter_tally.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="0.7741935">
+        <state line="10" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/populate_from_hash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/words.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dictionary.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="30" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dictionary_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="61" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/strings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="225" selection-end="225" vertical-scroll-proportion="0.23728813">
           <folding />
         </state>
       </provider>
